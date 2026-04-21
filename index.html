@@ -1273,7 +1273,7 @@ body {
 })();
 
 (function(){
-  const items = [
+  const defaultItems = [
     { sym:'FAV DRV', val:'CARLOS SAINZ', pts:'SMOOTH OPERATOR' },
     { sym:'FAV TEAM', val:'MERCEDES', pts:'SILVER ARROWS' },
     { sym:'NEXT', val:'MIAMI GP', pts:'MAY 3' },
@@ -1283,9 +1283,16 @@ body {
     { sym:'VER', val:'−60', pts:'P9' },
     { sym:'ROOKIE', val:'LINDBLAD', pts:'4 pts' },
   ];
-  const mk = (it) => `<span class="tick"><span class="sym">${it.sym}</span> <span class="val">${it.val}</span> <span class="pts">${it.pts}</span></span><span class="tick tick-dot">◆</span>`;
-  const half = items.map(mk).join('');
-  document.getElementById('tkTrack').innerHTML = half + half;
+
+  function renderTicker(items) {
+    if (!Array.isArray(items) || items.length === 0) return;
+    const mk = (it) => `<span class="tick"><span class="sym">${it.sym || ''}</span> <span class="val">${it.val || ''}</span> <span class="pts">${it.pts || ''}</span></span><span class="tick tick-dot">◆</span>`;
+    const half = items.map(mk).join('');
+    document.getElementById('tkTrack').innerHTML = half + half;
+  }
+
+  window.pitwallRenderTicker = renderTicker;
+  renderTicker(defaultItems);
 })();
 
 (function(){
@@ -1377,6 +1384,9 @@ body {
     .then((data) => {
       renderNews(data.news);
       renderStats(data.stats);
+      if (Array.isArray(data.ticker) && typeof window.pitwallRenderTicker === 'function') {
+        window.pitwallRenderTicker(data.ticker);
+      }
     })
     .catch((err) => {
       console.warn('Using built-in page content because dynamic content failed to load.', err);

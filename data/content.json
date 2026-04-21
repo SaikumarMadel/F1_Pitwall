@@ -58,5 +58,31 @@
       "valueSuffix": "",
       "sub": "Supported by Saikumar"
     }
-  ]
+  ],
+  "ticker": [
+    {
+      "sym": "LEADER",
+      "val": "K. ANTONELLI",
+      "pts": "35 PTS"
+    },
+    {
+      "sym": "P2",
+      "val": "G. RUSSELL",
+      "pts": "26 PTS"
+    },
+    {
+      "sym": "NEXT",
+      "val": "MIAMI GP",
+      "pts": "MAY 3"
+    },
+    {
+      "sym": "LAST WIN",
+      "val": "ANTONELLI",
+      "pts": "JAPAN"
+    }
+  ],
+  "meta": {
+    "lastUpdatedUtc": "2026-04-21T00:00:00Z",
+    "source": "manual"
+  }
 }
