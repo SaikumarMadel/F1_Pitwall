@@ -1,0 +1,62 @@
+{
+  "news": [
+    {
+      "number": "01",
+      "variant": "lead",
+      "kicker": "The Story",
+      "headline": "Antonelli's rookie surge rewrites Mercedes' championship math",
+      "body": "Three rounds in, the 19-year-old Italian has back-to-back wins and sits atop the drivers' table. Wolff has already shifted team orders mid-weekend. Russell now races his own teammate for the title."
+    },
+    {
+      "number": "02",
+      "variant": "neutral",
+      "kicker": "Engine Wars",
+      "headline": "Red Bull's new PU is down 15hp to Mercedes, paddock sources say",
+      "body": "Despite the full Ford works programme, Red Bull's 2026 power unit appears weakest on the grid. Verstappen's P5 in Japan came from chassis, not pace."
+    },
+    {
+      "number": "03",
+      "variant": "neutral",
+      "kicker": "Debut",
+      "headline": "Cadillac goal is simple: finish races, learn fast, build for 2029",
+      "body": "GM's eleventh team runs Ferrari PUs until its in-house unit is ready. Herta confirmed for four FP1 outings this year."
+    },
+    {
+      "number": "04",
+      "variant": "",
+      "kicker": "Calendar",
+      "headline": "FIA confirms Bahrain and Saudi cancellations, no replacements",
+      "body": "Iran war fallout leaves the season at 23 rounds, Australia to Abu Dhabi. Feeder series affected too."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Championship Lead",
+      "valuePrefix": "+9",
+      "valueEm": "",
+      "valueSuffix": " pts",
+      "sub": "Antonelli over Russell"
+    },
+    {
+      "label": "Fastest Lap 2026",
+      "valuePrefix": "1:28.411",
+      "valueEm": "",
+      "valueSuffix": "",
+      "sub": "Russell - Japan Q3"
+    },
+    {
+      "label": "Fastest Pit Stop",
+      "valuePrefix": "1.94",
+      "valueEm": "s",
+      "valueSuffix": "",
+      "sub": "McLaren - Japanese GP"
+    },
+    {
+      "label": "Favorite Driver",
+      "valuePrefix": "Carlos ",
+      "valueEm": "Sainz",
+      "valueSuffix": "",
+      "sub": "Supported by Saikumar"
+    }
+  ]
+}
