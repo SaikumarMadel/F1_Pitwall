@@ -29,7 +29,6 @@ Your live site updates within ~30 seconds. No HTML editing needed.
 ```
 .
 ├── index.html                 # Main page (do not edit for content)
-├── v2.html                    # Secondary page
 ├── data/
 │   └── content.json           # ← EDIT THIS to update stories & stats
 ├── .github/
