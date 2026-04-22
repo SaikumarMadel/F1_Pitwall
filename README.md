@@ -20,7 +20,7 @@ git push origin main
 ```
 
 ### 3. Done
-Your live site updates within ~30 seconds. No HTML editing needed.
+The Ergast refresh workflow updates every 5 minutes, and the live site reflects the latest committed content after GitHub Pages redeploys. No HTML editing needed.
 
 ---
 
@@ -29,6 +29,7 @@ Your live site updates within ~30 seconds. No HTML editing needed.
 ```
 .
 ├── index.html                 # Main page (do not edit for content)
+├── v2.html                    # Secondary page
 ├── data/
 │   └── content.json           # ← EDIT THIS to update stories & stats
 ├── .github/
@@ -53,6 +54,7 @@ Your live site updates within ~30 seconds. No HTML editing needed.
 3. **GitHub Action triggers automatically**
    - Runs workflow in `.github/workflows/deploy-pages.yml`
    - Uploads all files to GitHub Pages
+   - Runs `.github/workflows/update-f1-data.yml` on a 5-minute schedule to refresh Ergast data
 
 4. **Live site updates**
    - Your domain refreshes with new content
