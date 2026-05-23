@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh Pit Wall content from Ergast API.
+"""Refresh Pit Wall content from Jolpica (Ergast-compatible) API.
 
 Updates these parts of data/content.json:
 - stats
@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_FILE = ROOT / "data" / "content.json"
-API_BASE = "https://ergast.com/api/f1/current"
+API_BASE = "https://api.jolpi.ca/ergast/f1/current"
 
 
 def fetch_json(url: str) -> dict:
@@ -103,9 +103,17 @@ def build_updates() -> dict:
     if upcoming:
         next_race_name = upcoming.get("raceName", "TBA")
         next_race_date = upcoming.get("date", "TBA")
+        next_race_time = upcoming.get("time", "00:00:00Z")
+        next_circuit = upcoming.get("Circuit", {}).get("circuitName", "TBA")
+        next_country = upcoming.get("Circuit", {}).get("Location", {}).get("country", "TBA")
+        next_round = upcoming.get("round", "TBA")
     else:
         next_race_name = "TBA"
         next_race_date = "TBA"
+        next_race_time = "00:00:00Z"
+        next_circuit = "TBA"
+        next_country = "TBA"
+        next_round = "TBA"
 
     updates = {
         "stats": [
@@ -152,6 +160,14 @@ def build_updates() -> dict:
             "headline": f"{winner_name} takes {race_name} as title battle tightens",
             "body": f"{winner_name} won at {circuit_name or race_name}. Current championship leader is {leader_name} with {leader_points} points, {gap} clear of {second_name}.",
         },
+        "nextRace": {
+            "name": next_race_name,
+            "date": next_race_date,
+            "timeUtc": next_race_time,
+            "circuit": next_circuit,
+            "country": next_country,
+            "round": str(next_round),
+        },
     }
 
     return updates
@@ -166,6 +182,7 @@ def main() -> None:
 
     content["stats"] = updates["stats"]
     content["ticker"] = updates["ticker"]
+    content["nextRace"] = updates["nextRace"]
 
     news = content.get("news", [])
     if news:

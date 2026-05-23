@@ -3,9 +3,9 @@
     {
       "number": "01",
       "variant": "lead",
-      "kicker": "The Story",
-      "headline": "Antonelli's rookie surge rewrites Mercedes' championship math",
-      "body": "Three rounds in, the 19-year-old Italian has back-to-back wins and sits atop the drivers' table. Wolff has already shifted team orders mid-weekend. Russell now races his own teammate for the title."
+      "kicker": "Race Recap",
+      "headline": "Andrea Kimi Antonelli takes Miami Grand Prix as title battle tightens",
+      "body": "Andrea Kimi Antonelli won at Miami International Autodrome. Current championship leader is Andrea Kimi Antonelli with 100 points, 20 clear of George Russell."
     },
     {
       "number": "02",
@@ -32,57 +32,70 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+9",
+      "valuePrefix": "+20",
       "valueEm": "",
       "valueSuffix": " pts",
-      "sub": "Antonelli over Russell"
+      "sub": "Andrea Kimi Antonelli over George Russell"
     },
     {
-      "label": "Fastest Lap 2026",
-      "valuePrefix": "1:28.411",
+      "label": "Current Leader",
+      "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "Russell - Japan Q3"
+      "sub": "100 points after Miami Grand Prix"
     },
     {
-      "label": "Fastest Pit Stop",
-      "valuePrefix": "1.94",
-      "valueEm": "s",
+      "label": "Constructors Lead",
+      "valuePrefix": "Mercedes",
+      "valueEm": "",
       "valueSuffix": "",
-      "sub": "McLaren - Japanese GP"
+      "sub": "180 points"
     },
     {
-      "label": "Favorite Driver",
-      "valuePrefix": "Carlos ",
-      "valueEm": "Sainz",
+      "label": "Next Race",
+      "valuePrefix": "Canadian Grand Prix",
+      "valueEm": "",
       "valueSuffix": "",
-      "sub": "Supported by Saikumar"
+      "sub": "2026-05-24"
     }
   ],
   "ticker": [
     {
       "sym": "LEADER",
-      "val": "K. ANTONELLI",
-      "pts": "35 PTS"
+      "val": "ANDREA KIMI ANTONELLI",
+      "pts": "100 PTS"
     },
     {
       "sym": "P2",
-      "val": "G. RUSSELL",
-      "pts": "26 PTS"
+      "val": "GEORGE RUSSELL",
+      "pts": "80 PTS"
     },
     {
-      "sym": "NEXT",
-      "val": "MIAMI GP",
-      "pts": "MAY 3"
+      "sym": "CON",
+      "val": "MERCEDES",
+      "pts": "180 PTS"
     },
     {
       "sym": "LAST WIN",
-      "val": "ANTONELLI",
-      "pts": "JAPAN"
+      "val": "ANDREA KIMI ANTONELLI",
+      "pts": "MIAMI GRAND PRIX"
+    },
+    {
+      "sym": "NEXT",
+      "val": "CANADIAN GRAND PRIX",
+      "pts": "2026-05-24"
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-04-21T00:00:00Z",
-    "source": "manual"
+    "lastUpdatedUtc": "2026-05-23T06:06:05Z",
+    "source": "ergast"
+  },
+  "nextRace": {
+    "name": "Canadian Grand Prix",
+    "date": "2026-05-24",
+    "timeUtc": "20:00:00Z",
+    "circuit": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "round": "5"
   }
 }
