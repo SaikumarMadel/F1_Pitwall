@@ -41,18 +41,7 @@ jobs:
             exit 0
           fi
           if [ "${{ github.event.inputs.force_refresh }}" = "true" ]; then
-            python - <<'PY'
-from datetime import datetime, timezone
-from pathlib import Path
-import json
-
-path = Path("data/content.json")
-data = json.loads(path.read_text(encoding="utf-8"))
-data.setdefault("meta", {})
-data["meta"]["lastUpdatedUtc"] = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
-data["meta"]["source"] = "jolpica"
-path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
-PY
+            python -c "from datetime import datetime, timezone; from pathlib import Path; import json; p=Path('data/content.json'); d=json.loads(p.read_text(encoding='utf-8')); d.setdefault('meta', {}); d['meta']['lastUpdatedUtc']=datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z'); d['meta']['source']='jolpica'; p.write_text(json.dumps(d, indent=2) + '\n', encoding='utf-8')"
           fi
           git add data/content.json
           git commit -m "chore: refresh F1 content"
