@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore OS files
 .DS_Store
 Thumbs.db
@@ -17,4 +18,25 @@ build/
 # But NEVER ignore these:
 !data/
 !.github/
+=======
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore local development
+node_modules/
+dist/
+build/
+
+# But NEVER ignore these:
+!data/
+!.github/
+>>>>>>> c31f6cf (feat: automate content refresh and deploy pages)
 !

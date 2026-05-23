@@ -892,7 +892,8 @@ body {
 .footer-wrap { max-width: 1440px; margin: 0 auto; padding: 32px 36px 40px; }
 .footer { border-top: 1px solid var(--ink); padding-top: 22px; display: flex; justify-content: space-between; align-items: center; }
 .f-note { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--ink-3); letter-spacing: .18em; text-transform: uppercase; }
-.f-dot { display: inline-block; width: 4px; height: 4px; background: var(--racing); vertical-align: middle; margin: 0 8px; border-radius: 50%; position: relative; top: -2px; }
+.f-dot { display: inline-block; width: 8px; height: 8px; background: #22c55e; vertical-align: middle; margin: 0 8px; border-radius: 50%; position: relative; top: -1px; box-shadow: 0 0 0 2px rgba(34,197,94,0.2); }
+.f-dot.offline { background: var(--racing); box-shadow: 0 0 0 2px rgba(225,6,0,0.2); }
 .f-refresh { display: inline-block; margin-left: 8px; color: var(--ink-2); }
 .f-brand { font-family: 'Playfair Display', serif; font-size: 15px; font-style: italic; color: var(--ink-2); }
 .f-brand em { color: var(--racing); font-weight: 500; }
@@ -1239,7 +1240,7 @@ body {
 
 <div class="footer-wrap">
   <footer class="footer">
-    <div class="f-note">For Saikumar · eyes only<span class="f-dot"></span>Lights out and away we go<span class="f-refresh" id="lastRefreshed"></span></div>
+    <div class="f-note">For Saikumar · eyes only<span class="f-dot" id="statusDot"></span>Lights out and away we go<span class="f-refresh" id="lastRefreshed"></span></div>
     <div class="f-brand">The <em>Pit Wall</em></div>
   </footer>
 </div>
@@ -1247,21 +1248,38 @@ body {
 <script>
 (function(){
   const refreshEl = document.getElementById('lastRefreshed');
-  const formatRefreshTime = (date) =>
-    ' · Last refreshed ' + date.toLocaleString('en-GB', {
-      day: '2-digit',
-      month: 'short',
-      year: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit',
-      hour12: false,
-    });
+  const statusDot = document.getElementById('statusDot');
+  let lastUpdatedAt = null;
+
+  const setOnlineStatus = (isOnline) => {
+    if (!statusDot) return;
+    statusDot.classList.toggle('offline', !isOnline);
+  };
+  window.pitwallSetOnlineStatus = setOnlineStatus;
+
+  const formatMinutesAgo = (date) => {
+    const diffMs = Date.now() - date.getTime();
+    const minutes = Math.max(0, Math.floor(diffMs / 60000));
+    if (minutes <= 0) return ' · Updated just now';
+    if (minutes === 1) return ' · Updated 1 min ago';
+    return ` · Updated ${minutes} mins ago`;
+  };
 
   const markRefreshed = (timestamp) => {
     if (!refreshEl) return;
     const value = timestamp ? new Date(timestamp) : new Date();
-    refreshEl.textContent = formatRefreshTime(value);
+    lastUpdatedAt = Number.isNaN(value.getTime()) ? new Date() : value;
+    refreshEl.textContent = formatMinutesAgo(lastUpdatedAt);
   };
+
+  setInterval(() => {
+    if (!lastUpdatedAt || !refreshEl) return;
+    refreshEl.textContent = formatMinutesAgo(lastUpdatedAt);
+  }, 60000);
+
+  window.addEventListener('online', () => setOnlineStatus(true));
+  window.addEventListener('offline', () => setOnlineStatus(false));
+  setOnlineStatus(navigator.onLine);
 
   const now = new Date();
   const h = now.getHours();
@@ -1406,9 +1424,15 @@ body {
         window.pitwallRenderTicker(data.ticker);
       }
       markRefreshed(data.meta && data.meta.lastUpdatedUtc);
+      if (typeof window.pitwallSetOnlineStatus === 'function') {
+        window.pitwallSetOnlineStatus(true);
+      }
     })
     .catch((err) => {
       markRefreshed();
+      if (typeof window.pitwallSetOnlineStatus === 'function') {
+        window.pitwallSetOnlineStatus(false);
+      }
       console.warn('Using built-in page content because dynamic content failed to load.', err);
     });
 })();
