@@ -168,7 +168,61 @@ def build_updates() -> dict:
             "country": next_country,
             "round": str(next_round),
         },
+        "drivers": [],
+        "constructors": [],
+        "podium": {
+            "headline": f"{race_name} · Result",
+            "rows": [],
+        },
     }
+
+    for item in drivers[:10]:
+        driver = item.get("Driver", {})
+        constructor = (item.get("Constructors") or [{}])[0]
+        updates["drivers"].append(
+            {
+                "position": item.get("position", ""),
+                "name": full_name(driver),
+                "code": driver.get("code") or driver.get("driverId", "")[:3].upper(),
+                "constructor": constructor.get("name", ""),
+                "nationality": driver.get("nationality", "").upper()[:3],
+                "points": int(float(item.get("points", "0"))),
+                "gapToLeader": max(0, leader_points - int(float(item.get("points", "0")))),
+            }
+        )
+
+    max_constructor_points = int(float((constructors[0].get("points", "0")))) if constructors else 1
+    for item in constructors[:11]:
+        constructor = item.get("Constructor", {})
+        points = int(float(item.get("points", "0")))
+        updates["constructors"].append(
+            {
+                "position": item.get("position", ""),
+                "name": constructor.get("name", ""),
+                "nationality": constructor.get("nationality", "").upper()[:3],
+                "points": points,
+                "barPercent": 0 if max_constructor_points == 0 else round((points / max_constructor_points) * 100),
+            }
+        )
+
+    if last_race and last_race.get("Results"):
+        podium_rows = []
+        for i, result in enumerate(last_race.get("Results", [])[:3], start=1):
+            driver = result.get("Driver", {})
+            constructor = (result.get("Constructor") or {}).get("name", "")
+            podium_rows.append(
+                {
+                    "position": f"P{i}",
+                    "name": full_name(driver),
+                    "team": constructor,
+                    "time": result.get("Time", {}).get("time")
+                    or f"+{result.get('Time', {}).get('millis', '')}",
+                }
+            )
+        updates["podium"] = {
+            "headline": f"{race_name} · {circuit_name or 'Result'}",
+            "rows": podium_rows,
+        }
 
     return updates
 
@@ -177,12 +231,16 @@ def main() -> None:
     if not CONTENT_FILE.exists():
         raise FileNotFoundError(f"Missing file: {CONTENT_FILE}")
 
-    content = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))
+    # Accept both UTF-8 with BOM and plain UTF-8.
+    content = json.loads(CONTENT_FILE.read_text(encoding="utf-8-sig"))
     updates = build_updates()
 
     content["stats"] = updates["stats"]
     content["ticker"] = updates["ticker"]
     content["nextRace"] = updates["nextRace"]
+    content["drivers"] = updates["drivers"]
+    content["constructors"] = updates["constructors"]
+    content["podium"] = updates["podium"]
 
     news = content.get("news", [])
     if news:
@@ -191,11 +249,11 @@ def main() -> None:
 
     content["meta"] = {
         "lastUpdatedUtc": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
-        "source": "ergast",
+        "source": "jolpica",
     }
 
     CONTENT_FILE.write_text(json.dumps(content, indent=2) + "\n", encoding="utf-8")
-    print("Updated data/content.json from Ergast API")
+    print("Updated data/content.json from Jolpica API")
 
 
 if __name__ == "__main__":
