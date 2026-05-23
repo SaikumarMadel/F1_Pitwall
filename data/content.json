@@ -5,7 +5,7 @@
       "variant": "lead",
       "kicker": "Race Recap",
       "headline": "Andrea Kimi Antonelli takes Miami Grand Prix as title battle tightens",
-      "body": "Andrea Kimi Antonelli won at Miami International Autodrome. Current championship leader is Andrea Kimi Antonelli with 100 points, 20 clear of George Russell."
+      "body": "Andrea Kimi Antonelli won at Miami International Autodrome. Current championship leader is Andrea Kimi Antonelli with 106 points, 18 clear of George Russell."
     },
     {
       "number": "02",
@@ -32,7 +32,7 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+20",
+      "valuePrefix": "+18",
       "valueEm": "",
       "valueSuffix": " pts",
       "sub": "Andrea Kimi Antonelli over George Russell"
@@ -42,14 +42,14 @@
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "100 points after Miami Grand Prix"
+      "sub": "106 points after Miami Grand Prix"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "180 points"
+      "sub": "194 points"
     },
     {
       "label": "Next Race",
@@ -63,17 +63,17 @@
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "100 PTS"
+      "pts": "106 PTS"
     },
     {
       "sym": "P2",
       "val": "GEORGE RUSSELL",
-      "pts": "80 PTS"
+      "pts": "88 PTS"
     },
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "180 PTS"
+      "pts": "194 PTS"
     },
     {
       "sym": "LAST WIN",
@@ -87,7 +87,7 @@
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-05-23T18:02:45Z",
+    "lastUpdatedUtc": "2026-05-23T19:44:49Z",
     "source": "jolpica"
   },
   "nextRace": {
@@ -105,7 +105,7 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 100,
+      "points": 106,
       "gapToLeader": 0
     },
     {
@@ -114,8 +114,8 @@
       "code": "RUS",
       "constructor": "Mercedes",
       "nationality": "BRI",
-      "points": 80,
-      "gapToLeader": 20
+      "points": 88,
+      "gapToLeader": 18
     },
     {
       "position": "3",
@@ -123,8 +123,8 @@
       "code": "LEC",
       "constructor": "Ferrari",
       "nationality": "MON",
-      "points": 59,
-      "gapToLeader": 41
+      "points": 63,
+      "gapToLeader": 43
     },
     {
       "position": "4",
@@ -132,8 +132,8 @@
       "code": "NOR",
       "constructor": "McLaren",
       "nationality": "BRI",
-      "points": 51,
-      "gapToLeader": 49
+      "points": 58,
+      "gapToLeader": 48
     },
     {
       "position": "5",
@@ -141,8 +141,8 @@
       "code": "HAM",
       "constructor": "Ferrari",
       "nationality": "BRI",
-      "points": 51,
-      "gapToLeader": 49
+      "points": 54,
+      "gapToLeader": 52
     },
     {
       "position": "6",
@@ -150,8 +150,8 @@
       "code": "PIA",
       "constructor": "McLaren",
       "nationality": "AUS",
-      "points": 43,
-      "gapToLeader": 57
+      "points": 48,
+      "gapToLeader": 58
     },
     {
       "position": "7",
@@ -159,8 +159,8 @@
       "code": "VER",
       "constructor": "Red Bull",
       "nationality": "DUT",
-      "points": 26,
-      "gapToLeader": 74
+      "points": 28,
+      "gapToLeader": 78
     },
     {
       "position": "8",
@@ -169,7 +169,7 @@
       "constructor": "Haas F1 Team",
       "nationality": "BRI",
       "points": 17,
-      "gapToLeader": 83
+      "gapToLeader": 89
     },
     {
       "position": "9",
@@ -178,7 +178,7 @@
       "constructor": "Alpine F1 Team",
       "nationality": "FRE",
       "points": 16,
-      "gapToLeader": 84
+      "gapToLeader": 90
     },
     {
       "position": "10",
@@ -187,7 +187,7 @@
       "constructor": "RB F1 Team",
       "nationality": "NEW",
       "points": 10,
-      "gapToLeader": 90
+      "gapToLeader": 96
     }
   ],
   "constructors": [
@@ -195,49 +195,49 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 180,
+      "points": 194,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 110,
-      "barPercent": 61
+      "points": 117,
+      "barPercent": 60
     },
     {
       "position": "3",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 94,
-      "barPercent": 52
+      "points": 106,
+      "barPercent": 55
     },
     {
       "position": "4",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 30,
-      "barPercent": 17
+      "points": 32,
+      "barPercent": 16
     },
     {
       "position": "5",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
       "points": 23,
-      "barPercent": 13
+      "barPercent": 12
     },
     {
       "position": "6",
       "name": "Haas F1 Team",
       "nationality": "AME",
       "points": 18,
-      "barPercent": 10
+      "barPercent": 9
     },
     {
       "position": "7",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 14,
+      "points": 15,
       "barPercent": 8
     },
     {
