@@ -4,8 +4,8 @@
       "number": "01",
       "variant": "lead",
       "kicker": "Race Recap",
-      "headline": "Andrea Kimi Antonelli takes Canadian Grand Prix as title battle tightens",
-      "body": "Andrea Kimi Antonelli won at Circuit Gilles Villeneuve. Current championship leader is Andrea Kimi Antonelli with 131 points, 43 clear of George Russell."
+      "headline": "Andrea Kimi Antonelli takes Monaco Grand Prix as title battle tightens",
+      "body": "Andrea Kimi Antonelli won at Circuit de Monaco. Current championship leader is Andrea Kimi Antonelli with 156 points, 66 clear of Lewis Hamilton."
     },
     {
       "number": "02",
@@ -32,71 +32,71 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+43",
+      "valuePrefix": "+66",
       "valueEm": "",
       "valueSuffix": " pts",
-      "sub": "Andrea Kimi Antonelli over George Russell"
+      "sub": "Andrea Kimi Antonelli over Lewis Hamilton"
     },
     {
       "label": "Current Leader",
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "131 points after Canadian Grand Prix"
+      "sub": "156 points after Monaco Grand Prix"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "219 points"
+      "sub": "244 points"
     },
     {
       "label": "Next Race",
-      "valuePrefix": "Monaco Grand Prix",
+      "valuePrefix": "Barcelona Grand Prix",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "2026-06-07"
+      "sub": "2026-06-14"
     }
   ],
   "ticker": [
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "131 PTS"
+      "pts": "156 PTS"
     },
     {
       "sym": "P2",
-      "val": "GEORGE RUSSELL",
-      "pts": "88 PTS"
+      "val": "LEWIS HAMILTON",
+      "pts": "90 PTS"
     },
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "219 PTS"
+      "pts": "244 PTS"
     },
     {
       "sym": "LAST WIN",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "CANADIAN GRAND PRIX"
+      "pts": "MONACO GRAND PRIX"
     },
     {
       "sym": "NEXT",
-      "val": "MONACO GRAND PRIX",
-      "pts": "2026-06-07"
+      "val": "BARCELONA GRAND PRIX",
+      "pts": "2026-06-14"
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-06-07T18:05:23Z",
+    "lastUpdatedUtc": "2026-06-07T19:55:06Z",
     "source": "jolpica"
   },
   "nextRace": {
-    "name": "Monaco Grand Prix",
-    "date": "2026-06-07",
+    "name": "Barcelona Grand Prix",
+    "date": "2026-06-14",
     "timeUtc": "13:00:00Z",
-    "circuit": "Circuit de Monaco",
-    "country": "Monaco",
-    "round": "6"
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "round": "7"
   },
   "drivers": [
     {
@@ -105,53 +105,53 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 131,
+      "points": 156,
       "gapToLeader": 0
     },
     {
       "position": "2",
+      "name": "Lewis Hamilton",
+      "code": "HAM",
+      "constructor": "Ferrari",
+      "nationality": "BRI",
+      "points": 90,
+      "gapToLeader": 66
+    },
+    {
+      "position": "3",
       "name": "George Russell",
       "code": "RUS",
       "constructor": "Mercedes",
       "nationality": "BRI",
       "points": 88,
-      "gapToLeader": 43
+      "gapToLeader": 68
     },
     {
-      "position": "3",
+      "position": "4",
       "name": "Charles Leclerc",
       "code": "LEC",
       "constructor": "Ferrari",
       "nationality": "MON",
       "points": 75,
-      "gapToLeader": 56
-    },
-    {
-      "position": "4",
-      "name": "Lewis Hamilton",
-      "code": "HAM",
-      "constructor": "Ferrari",
-      "nationality": "BRI",
-      "points": 72,
-      "gapToLeader": 59
+      "gapToLeader": 81
     },
     {
       "position": "5",
+      "name": "Oscar Piastri",
+      "code": "PIA",
+      "constructor": "McLaren",
+      "nationality": "AUS",
+      "points": 60,
+      "gapToLeader": 96
+    },
+    {
+      "position": "6",
       "name": "Lando Norris",
       "code": "NOR",
       "constructor": "McLaren",
       "nationality": "BRI",
       "points": 58,
-      "gapToLeader": 73
-    },
-    {
-      "position": "6",
-      "name": "Oscar Piastri",
-      "code": "PIA",
-      "constructor": "McLaren",
-      "nationality": "AUS",
-      "points": 48,
-      "gapToLeader": 83
+      "gapToLeader": 98
     },
     {
       "position": "7",
@@ -160,34 +160,34 @@
       "constructor": "Red Bull",
       "nationality": "DUT",
       "points": 43,
-      "gapToLeader": 88
-    },
-    {
-      "position": "8",
-      "name": "Pierre Gasly",
-      "code": "GAS",
-      "constructor": "Alpine F1 Team",
-      "nationality": "FRE",
-      "points": 20,
-      "gapToLeader": 111
-    },
-    {
-      "position": "9",
-      "name": "Oliver Bearman",
-      "code": "BEA",
-      "constructor": "Haas F1 Team",
-      "nationality": "BRI",
-      "points": 18,
       "gapToLeader": 113
     },
     {
-      "position": "10",
+      "position": "8",
+      "name": "Isack Hadjar",
+      "code": "HAD",
+      "constructor": "Red Bull",
+      "nationality": "FRE",
+      "points": 29,
+      "gapToLeader": 127
+    },
+    {
+      "position": "9",
       "name": "Liam Lawson",
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 16,
-      "gapToLeader": 115
+      "points": 26,
+      "gapToLeader": 130
+    },
+    {
+      "position": "10",
+      "name": "Pierre Gasly",
+      "code": "GAS",
+      "constructor": "Alpine F1 Team",
+      "nationality": "FRE",
+      "points": 26,
+      "gapToLeader": 130
     }
   ],
   "constructors": [
@@ -195,57 +195,57 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 219,
+      "points": 244,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 147,
-      "barPercent": 67
+      "points": 165,
+      "barPercent": 68
     },
     {
       "position": "3",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 106,
+      "points": 118,
       "barPercent": 48
     },
     {
       "position": "4",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 57,
-      "barPercent": 26
+      "points": 72,
+      "barPercent": 30
     },
     {
       "position": "5",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 35,
-      "barPercent": 16
+      "points": 41,
+      "barPercent": 17
     },
     {
       "position": "6",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 21,
-      "barPercent": 10
+      "points": 39,
+      "barPercent": 16
     },
     {
       "position": "7",
       "name": "Haas F1 Team",
       "nationality": "AME",
-      "points": 19,
+      "points": 21,
       "barPercent": 9
     },
     {
       "position": "8",
       "name": "Williams",
       "nationality": "BRI",
-      "points": 7,
-      "barPercent": 3
+      "points": 11,
+      "barPercent": 5
     },
     {
       "position": "9",
@@ -258,7 +258,7 @@
       "position": "10",
       "name": "Cadillac F1 Team",
       "nationality": "AME",
-      "points": 0,
+      "points": 1,
       "barPercent": 0
     },
     {
@@ -270,25 +270,25 @@
     }
   ],
   "podium": {
-    "headline": "Canadian Grand Prix \u00b7 Circuit Gilles Villeneuve",
+    "headline": "Monaco Grand Prix \u00b7 Circuit de Monaco",
     "rows": [
       {
         "position": "P1",
         "name": "Andrea Kimi Antonelli",
         "team": "Mercedes",
-        "time": "1:28:15.758"
+        "time": "2:23:31.243"
       },
       {
         "position": "P2",
         "name": "Lewis Hamilton",
         "team": "Ferrari",
-        "time": "+10.768"
+        "time": "+6.271"
       },
       {
         "position": "P3",
-        "name": "Max Verstappen",
+        "name": "Isack Hadjar",
         "team": "Red Bull",
-        "time": "+11.276"
+        "time": "+23.394"
       }
     ]
   }
