@@ -87,7 +87,7 @@
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-06-12T18:23:36Z",
+    "lastUpdatedUtc": "2026-06-12T20:34:49Z",
     "source": "jolpica"
   },
   "nextRace": {
@@ -141,8 +141,8 @@
       "code": "PIA",
       "constructor": "McLaren",
       "nationality": "AUS",
-      "points": 60,
-      "gapToLeader": 96
+      "points": 58,
+      "gapToLeader": 98
     },
     {
       "position": "6",
@@ -164,30 +164,30 @@
     },
     {
       "position": "8",
+      "name": "Pierre Gasly",
+      "code": "GAS",
+      "constructor": "Alpine F1 Team",
+      "nationality": "FRE",
+      "points": 35,
+      "gapToLeader": 121
+    },
+    {
+      "position": "9",
       "name": "Isack Hadjar",
       "code": "HAD",
       "constructor": "Red Bull",
       "nationality": "FRE",
-      "points": 29,
-      "gapToLeader": 127
-    },
-    {
-      "position": "9",
-      "name": "Liam Lawson",
-      "code": "LAW",
-      "constructor": "RB F1 Team",
-      "nationality": "NEW",
       "points": 26,
       "gapToLeader": 130
     },
     {
       "position": "10",
-      "name": "Pierre Gasly",
-      "code": "GAS",
-      "constructor": "Alpine F1 Team",
-      "nationality": "FRE",
-      "points": 26,
-      "gapToLeader": 130
+      "name": "Liam Lawson",
+      "code": "LAW",
+      "constructor": "RB F1 Team",
+      "nationality": "NEW",
+      "points": 24,
+      "gapToLeader": 132
     }
   ],
   "constructors": [
@@ -209,29 +209,29 @@
       "position": "3",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 118,
+      "points": 116,
       "barPercent": 48
     },
     {
       "position": "4",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 72,
-      "barPercent": 30
+      "points": 69,
+      "barPercent": 28
     },
     {
       "position": "5",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 41,
-      "barPercent": 17
+      "points": 50,
+      "barPercent": 20
     },
     {
       "position": "6",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 39,
-      "barPercent": 16
+      "points": 35,
+      "barPercent": 14
     },
     {
       "position": "7",
@@ -286,9 +286,9 @@
       },
       {
         "position": "P3",
-        "name": "Isack Hadjar",
-        "team": "Red Bull",
-        "time": "+23.394"
+        "name": "Pierre Gasly",
+        "team": "Alpine F1 Team",
+        "time": "+20.369"
       }
     ]
   }
