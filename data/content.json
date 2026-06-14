@@ -87,7 +87,7 @@
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-06-14T17:57:28Z",
+    "lastUpdatedUtc": "2026-06-14T19:48:33Z",
     "source": "jolpica"
   },
   "nextRace": {
@@ -186,8 +186,8 @@
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 26,
-      "gapToLeader": 130
+      "points": 28,
+      "gapToLeader": 128
     }
   ],
   "constructors": [
@@ -223,15 +223,15 @@
       "position": "5",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 60,
-      "barPercent": 23
+      "points": 57,
+      "barPercent": 22
     },
     {
       "position": "6",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 38,
-      "barPercent": 15
+      "points": 41,
+      "barPercent": 16
     },
     {
       "position": "7",
