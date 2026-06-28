@@ -4,8 +4,8 @@
       "number": "01",
       "variant": "lead",
       "kicker": "Race Recap",
-      "headline": "Lewis Hamilton takes Barcelona Grand Prix as title battle tightens",
-      "body": "Lewis Hamilton won at Circuit de Barcelona-Catalunya. Current championship leader is Andrea Kimi Antonelli with 156 points, 41 clear of Lewis Hamilton."
+      "headline": "George Russell takes Austrian Grand Prix as title battle tightens",
+      "body": "George Russell won at Red Bull Ring. Current championship leader is Andrea Kimi Antonelli with 171 points, 40 clear of George Russell."
     },
     {
       "number": "02",
@@ -32,71 +32,71 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+41",
+      "valuePrefix": "+40",
       "valueEm": "",
       "valueSuffix": " pts",
-      "sub": "Andrea Kimi Antonelli over Lewis Hamilton"
+      "sub": "Andrea Kimi Antonelli over George Russell"
     },
     {
       "label": "Current Leader",
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "156 points after Barcelona Grand Prix"
+      "sub": "171 points after Austrian Grand Prix"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "262 points"
+      "sub": "302 points"
     },
     {
       "label": "Next Race",
-      "valuePrefix": "Austrian Grand Prix",
+      "valuePrefix": "British Grand Prix",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "2026-06-28"
+      "sub": "2026-07-05"
     }
   ],
   "ticker": [
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "156 PTS"
+      "pts": "171 PTS"
     },
     {
       "sym": "P2",
-      "val": "LEWIS HAMILTON",
-      "pts": "115 PTS"
+      "val": "GEORGE RUSSELL",
+      "pts": "131 PTS"
     },
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "262 PTS"
+      "pts": "302 PTS"
     },
     {
       "sym": "LAST WIN",
-      "val": "LEWIS HAMILTON",
-      "pts": "BARCELONA GRAND PRIX"
+      "val": "GEORGE RUSSELL",
+      "pts": "AUSTRIAN GRAND PRIX"
     },
     {
       "sym": "NEXT",
-      "val": "AUSTRIAN GRAND PRIX",
-      "pts": "2026-06-28"
+      "val": "BRITISH GRAND PRIX",
+      "pts": "2026-07-05"
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-06-28T15:50:15Z",
+    "lastUpdatedUtc": "2026-06-28T17:13:41Z",
     "source": "jolpica"
   },
   "nextRace": {
-    "name": "Austrian Grand Prix",
-    "date": "2026-06-28",
-    "timeUtc": "13:00:00Z",
-    "circuit": "Red Bull Ring",
-    "country": "Austria",
-    "round": "8"
+    "name": "British Grand Prix",
+    "date": "2026-07-05",
+    "timeUtc": "14:00:00Z",
+    "circuit": "Silverstone Circuit",
+    "country": "UK",
+    "round": "9"
   },
   "drivers": [
     {
@@ -105,35 +105,35 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 156,
+      "points": 171,
       "gapToLeader": 0
     },
     {
       "position": "2",
-      "name": "Lewis Hamilton",
-      "code": "HAM",
-      "constructor": "Ferrari",
-      "nationality": "BRI",
-      "points": 115,
-      "gapToLeader": 41
-    },
-    {
-      "position": "3",
       "name": "George Russell",
       "code": "RUS",
       "constructor": "Mercedes",
       "nationality": "BRI",
-      "points": 106,
-      "gapToLeader": 50
+      "points": 131,
+      "gapToLeader": 40
+    },
+    {
+      "position": "3",
+      "name": "Lewis Hamilton",
+      "code": "HAM",
+      "constructor": "Ferrari",
+      "nationality": "BRI",
+      "points": 125,
+      "gapToLeader": 46
     },
     {
       "position": "4",
-      "name": "Charles Leclerc",
-      "code": "LEC",
-      "constructor": "Ferrari",
-      "nationality": "MON",
-      "points": 75,
-      "gapToLeader": 81
+      "name": "Oscar Piastri",
+      "code": "PIA",
+      "constructor": "McLaren",
+      "nationality": "AUS",
+      "points": 80,
+      "gapToLeader": 91
     },
     {
       "position": "5",
@@ -141,17 +141,17 @@
       "code": "NOR",
       "constructor": "McLaren",
       "nationality": "BRI",
-      "points": 73,
-      "gapToLeader": 83
+      "points": 79,
+      "gapToLeader": 92
     },
     {
       "position": "6",
-      "name": "Oscar Piastri",
-      "code": "PIA",
-      "constructor": "McLaren",
-      "nationality": "AUS",
-      "points": 68,
-      "gapToLeader": 88
+      "name": "Charles Leclerc",
+      "code": "LEC",
+      "constructor": "Ferrari",
+      "nationality": "MON",
+      "points": 79,
+      "gapToLeader": 92
     },
     {
       "position": "7",
@@ -159,26 +159,26 @@
       "code": "VER",
       "constructor": "Red Bull",
       "nationality": "DUT",
-      "points": 55,
-      "gapToLeader": 101
+      "points": 73,
+      "gapToLeader": 98
     },
     {
       "position": "8",
+      "name": "Isack Hadjar",
+      "code": "HAD",
+      "constructor": "Red Bull",
+      "nationality": "FRE",
+      "points": 42,
+      "gapToLeader": 129
+    },
+    {
+      "position": "9",
       "name": "Pierre Gasly",
       "code": "GAS",
       "constructor": "Alpine F1 Team",
       "nationality": "FRE",
       "points": 41,
-      "gapToLeader": 115
-    },
-    {
-      "position": "9",
-      "name": "Isack Hadjar",
-      "code": "HAD",
-      "constructor": "Red Bull",
-      "nationality": "FRE",
-      "points": 34,
-      "gapToLeader": 122
+      "gapToLeader": 130
     },
     {
       "position": "10",
@@ -186,8 +186,8 @@
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 28,
-      "gapToLeader": 128
+      "points": 30,
+      "gapToLeader": 141
     }
   ],
   "constructors": [
@@ -195,50 +195,50 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 262,
+      "points": 302,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 190,
-      "barPercent": 73
+      "points": 204,
+      "barPercent": 68
     },
     {
       "position": "3",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 141,
-      "barPercent": 54
+      "points": 159,
+      "barPercent": 53
     },
     {
       "position": "4",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 89,
-      "barPercent": 34
+      "points": 115,
+      "barPercent": 38
     },
     {
       "position": "5",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
       "points": 57,
-      "barPercent": 22
+      "barPercent": 19
     },
     {
       "position": "6",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 41,
-      "barPercent": 16
+      "points": 44,
+      "barPercent": 15
     },
     {
       "position": "7",
       "name": "Haas F1 Team",
       "nationality": "AME",
       "points": 21,
-      "barPercent": 8
+      "barPercent": 7
     },
     {
       "position": "8",
@@ -270,25 +270,25 @@
     }
   ],
   "podium": {
-    "headline": "Barcelona Grand Prix \u00b7 Circuit de Barcelona-Catalunya",
+    "headline": "Austrian Grand Prix \u00b7 Red Bull Ring",
     "rows": [
       {
         "position": "P1",
-        "name": "Lewis Hamilton",
-        "team": "Ferrari",
-        "time": "1:32:28.105"
+        "name": "George Russell",
+        "team": "Mercedes",
+        "time": "1:26:37.979"
       },
       {
         "position": "P2",
-        "name": "George Russell",
-        "team": "Mercedes",
-        "time": "+19.561"
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "time": "+1.611"
       },
       {
         "position": "P3",
-        "name": "Lando Norris",
-        "team": "McLaren",
-        "time": "+23.719"
+        "name": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "+1.986"
       }
     ]
   }
