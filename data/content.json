@@ -4,8 +4,8 @@
       "number": "01",
       "variant": "lead",
       "kicker": "Race Recap",
-      "headline": "Lando Norris takes Hungarian Grand Prix as title battle tightens",
-      "body": "Lando Norris won at Hungaroring. Current championship leader is Andrea Kimi Antonelli with 224 points, 53 clear of Lewis Hamilton."
+      "headline": "Lando Norris takes Dutch Grand Prix as title battle tightens",
+      "body": "Lando Norris won at Circuit Park Zandvoort. Current championship leader is Andrea Kimi Antonelli with 242 points, 59 clear of George Russell."
     },
     {
       "number": "02",
@@ -32,71 +32,71 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+53",
+      "valuePrefix": "+59",
       "valueEm": "",
       "valueSuffix": " pts",
-      "sub": "Andrea Kimi Antonelli over Lewis Hamilton"
+      "sub": "Andrea Kimi Antonelli over George Russell"
     },
     {
       "label": "Current Leader",
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "224 points after Hungarian Grand Prix"
+      "sub": "242 points after Dutch Grand Prix"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "392 points"
+      "sub": "425 points"
     },
     {
       "label": "Next Race",
-      "valuePrefix": "Dutch Grand Prix",
+      "valuePrefix": "Italian Grand Prix",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "2026-08-23"
+      "sub": "2026-09-06"
     }
   ],
   "ticker": [
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "224 PTS"
+      "pts": "242 PTS"
     },
     {
       "sym": "P2",
-      "val": "LEWIS HAMILTON",
-      "pts": "171 PTS"
+      "val": "GEORGE RUSSELL",
+      "pts": "183 PTS"
     },
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "392 PTS"
+      "pts": "425 PTS"
     },
     {
       "sym": "LAST WIN",
       "val": "LANDO NORRIS",
-      "pts": "HUNGARIAN GRAND PRIX"
+      "pts": "DUTCH GRAND PRIX"
     },
     {
       "sym": "NEXT",
-      "val": "DUTCH GRAND PRIX",
-      "pts": "2026-08-23"
+      "val": "ITALIAN GRAND PRIX",
+      "pts": "2026-09-06"
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-08-23T15:47:58Z",
+    "lastUpdatedUtc": "2026-08-23T16:26:42Z",
     "source": "jolpica"
   },
   "nextRace": {
-    "name": "Dutch Grand Prix",
-    "date": "2026-08-23",
+    "name": "Italian Grand Prix",
+    "date": "2026-09-06",
     "timeUtc": "13:00:00Z",
-    "circuit": "Circuit Park Zandvoort",
-    "country": "Netherlands",
-    "round": "12"
+    "circuit": "Autodromo Nazionale di Monza",
+    "country": "Italy",
+    "round": "13"
   },
   "drivers": [
     {
@@ -105,44 +105,44 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 224,
+      "points": 242,
       "gapToLeader": 0
     },
     {
       "position": "2",
-      "name": "Lewis Hamilton",
-      "code": "HAM",
-      "constructor": "Ferrari",
-      "nationality": "BRI",
-      "points": 171,
-      "gapToLeader": 53
-    },
-    {
-      "position": "3",
       "name": "George Russell",
       "code": "RUS",
       "constructor": "Mercedes",
       "nationality": "BRI",
-      "points": 168,
-      "gapToLeader": 56
+      "points": 183,
+      "gapToLeader": 59
+    },
+    {
+      "position": "3",
+      "name": "Lewis Hamilton",
+      "code": "HAM",
+      "constructor": "Ferrari",
+      "nationality": "BRI",
+      "points": 183,
+      "gapToLeader": 59
     },
     {
       "position": "4",
-      "name": "Charles Leclerc",
-      "code": "LEC",
-      "constructor": "Ferrari",
-      "nationality": "MON",
-      "points": 145,
-      "gapToLeader": 79
-    },
-    {
-      "position": "5",
       "name": "Lando Norris",
       "code": "NOR",
       "constructor": "McLaren",
       "nationality": "BRI",
-      "points": 134,
-      "gapToLeader": 90
+      "points": 159,
+      "gapToLeader": 83
+    },
+    {
+      "position": "5",
+      "name": "Charles Leclerc",
+      "code": "LEC",
+      "constructor": "Ferrari",
+      "nationality": "MON",
+      "points": 155,
+      "gapToLeader": 87
     },
     {
       "position": "6",
@@ -151,7 +151,7 @@
       "constructor": "Red Bull",
       "nationality": "DUT",
       "points": 112,
-      "gapToLeader": 112
+      "gapToLeader": 130
     },
     {
       "position": "7",
@@ -159,8 +159,8 @@
       "code": "PIA",
       "constructor": "McLaren",
       "nationality": "AUS",
-      "points": 96,
-      "gapToLeader": 128
+      "points": 104,
+      "gapToLeader": 138
     },
     {
       "position": "8",
@@ -169,25 +169,25 @@
       "constructor": "Red Bull",
       "nationality": "FRE",
       "points": 68,
-      "gapToLeader": 156
+      "gapToLeader": 174
     },
     {
       "position": "9",
-      "name": "Pierre Gasly",
-      "code": "GAS",
-      "constructor": "Alpine F1 Team",
-      "nationality": "FRE",
-      "points": 43,
-      "gapToLeader": 181
-    },
-    {
-      "position": "10",
       "name": "Liam Lawson",
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 43,
-      "gapToLeader": 181
+      "points": 49,
+      "gapToLeader": 193
+    },
+    {
+      "position": "10",
+      "name": "Pierre Gasly",
+      "code": "GAS",
+      "constructor": "Alpine F1 Team",
+      "nationality": "FRE",
+      "points": 44,
+      "gapToLeader": 198
     }
   ],
   "constructors": [
@@ -195,43 +195,43 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 392,
+      "points": 425,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 316,
-      "barPercent": 81
+      "points": 338,
+      "barPercent": 80
     },
     {
       "position": "3",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 230,
-      "barPercent": 59
+      "points": 263,
+      "barPercent": 62
     },
     {
       "position": "4",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 180,
-      "barPercent": 46
+      "points": 186,
+      "barPercent": 44
     },
     {
       "position": "5",
       "name": "RB F1 Team",
       "nationality": "ITA",
       "points": 66,
-      "barPercent": 17
+      "barPercent": 16
     },
     {
       "position": "6",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 62,
-      "barPercent": 16
+      "points": 63,
+      "barPercent": 15
     },
     {
       "position": "7",
@@ -244,8 +244,8 @@
       "position": "8",
       "name": "Audi",
       "nationality": "GER",
-      "points": 12,
-      "barPercent": 3
+      "points": 16,
+      "barPercent": 4
     },
     {
       "position": "9",
@@ -258,8 +258,8 @@
       "position": "10",
       "name": "Aston Martin",
       "nationality": "BRI",
-      "points": 1,
-      "barPercent": 0
+      "points": 3,
+      "barPercent": 1
     },
     {
       "position": "11",
@@ -270,25 +270,25 @@
     }
   ],
   "podium": {
-    "headline": "Hungarian Grand Prix \u00b7 Hungaroring",
+    "headline": "Dutch Grand Prix \u00b7 Circuit Park Zandvoort",
     "rows": [
       {
         "position": "P1",
         "name": "Lando Norris",
         "team": "McLaren",
-        "time": "1:39:56.180"
+        "time": "2:04:44.859"
       },
       {
         "position": "P2",
-        "name": "Max Verstappen",
-        "team": "Red Bull",
-        "time": "+15.080"
+        "name": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "+11.536"
       },
       {
         "position": "P3",
-        "name": "Andrea Kimi Antonelli",
+        "name": "George Russell",
         "team": "Mercedes",
-        "time": "+18.728"
+        "time": "+15.906"
       }
     ]
   }
