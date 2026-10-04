@@ -4,8 +4,8 @@
       "number": "01",
       "variant": "lead",
       "kicker": "Race Recap",
-      "headline": "George Russell takes Azerbaijan Grand Prix as title battle tightens",
-      "body": "George Russell won at Baku City Circuit. Current championship leader is Andrea Kimi Antonelli with 302 points, 66 clear of George Russell."
+      "headline": "Max Verstappen takes Bahrain Grand Prix in Malaysia as title battle tightens",
+      "body": "Max Verstappen won at Sepang International Circuit. Current championship leader is Andrea Kimi Antonelli with 320 points, 84 clear of George Russell."
     },
     {
       "number": "02",
@@ -32,7 +32,7 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+66",
+      "valuePrefix": "+84",
       "valueEm": "",
       "valueSuffix": " pts",
       "sub": "Andrea Kimi Antonelli over George Russell"
@@ -42,28 +42,28 @@
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "302 points after Azerbaijan Grand Prix"
+      "sub": "320 points after Bahrain Grand Prix in Malaysia"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "538 points"
+      "sub": "556 points"
     },
     {
       "label": "Next Race",
-      "valuePrefix": "Bahrain Grand Prix in Malaysia",
+      "valuePrefix": "Singapore Grand Prix",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "2026-10-04"
+      "sub": "2026-10-11"
     }
   ],
   "ticker": [
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "302 PTS"
+      "pts": "320 PTS"
     },
     {
       "sym": "P2",
@@ -73,30 +73,30 @@
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "538 PTS"
+      "pts": "556 PTS"
     },
     {
       "sym": "LAST WIN",
-      "val": "GEORGE RUSSELL",
-      "pts": "AZERBAIJAN GRAND PRIX"
+      "val": "MAX VERSTAPPEN",
+      "pts": "BAHRAIN GRAND PRIX IN MALAYSIA"
     },
     {
       "sym": "NEXT",
-      "val": "BAHRAIN GRAND PRIX IN MALAYSIA",
-      "pts": "2026-10-04"
+      "val": "SINGAPORE GRAND PRIX",
+      "pts": "2026-10-11"
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-10-04T18:00:41Z",
+    "lastUpdatedUtc": "2026-10-04T21:46:33Z",
     "source": "jolpica"
   },
   "nextRace": {
-    "name": "Bahrain Grand Prix in Malaysia",
-    "date": "2026-10-04",
-    "timeUtc": "07:00:00Z",
-    "circuit": "Sepang International Circuit",
-    "country": "Malaysia",
-    "round": "16"
+    "name": "Singapore Grand Prix",
+    "date": "2026-10-11",
+    "timeUtc": "12:00:00Z",
+    "circuit": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "round": "17"
   },
   "drivers": [
     {
@@ -105,7 +105,7 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 302,
+      "points": 320,
       "gapToLeader": 0
     },
     {
@@ -115,7 +115,7 @@
       "constructor": "Mercedes",
       "nationality": "BRI",
       "points": 236,
-      "gapToLeader": 66
+      "gapToLeader": 84
     },
     {
       "position": "3",
@@ -123,26 +123,26 @@
       "code": "HAM",
       "constructor": "Ferrari",
       "nationality": "BRI",
-      "points": 199,
-      "gapToLeader": 103
+      "points": 214,
+      "gapToLeader": 106
     },
     {
       "position": "4",
-      "name": "Lando Norris",
-      "code": "NOR",
-      "constructor": "McLaren",
-      "nationality": "BRI",
-      "points": 186,
-      "gapToLeader": 116
-    },
-    {
-      "position": "5",
       "name": "Charles Leclerc",
       "code": "LEC",
       "constructor": "Ferrari",
       "nationality": "MON",
-      "points": 179,
-      "gapToLeader": 123
+      "points": 191,
+      "gapToLeader": 129
+    },
+    {
+      "position": "5",
+      "name": "Lando Norris",
+      "code": "NOR",
+      "constructor": "McLaren",
+      "nationality": "BRI",
+      "points": 188,
+      "gapToLeader": 132
     },
     {
       "position": "6",
@@ -150,8 +150,8 @@
       "code": "VER",
       "constructor": "Red Bull",
       "nationality": "DUT",
-      "points": 163,
-      "gapToLeader": 139
+      "points": 188,
+      "gapToLeader": 132
     },
     {
       "position": "7",
@@ -159,8 +159,8 @@
       "code": "PIA",
       "constructor": "McLaren",
       "nationality": "AUS",
-      "points": 120,
-      "gapToLeader": 182
+      "points": 128,
+      "gapToLeader": 192
     },
     {
       "position": "8",
@@ -168,8 +168,8 @@
       "code": "HAD",
       "constructor": "Red Bull",
       "nationality": "FRE",
-      "points": 86,
-      "gapToLeader": 216
+      "points": 96,
+      "gapToLeader": 224
     },
     {
       "position": "9",
@@ -177,8 +177,8 @@
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 59,
-      "gapToLeader": 243
+      "points": 65,
+      "gapToLeader": 255
     },
     {
       "position": "10",
@@ -187,7 +187,7 @@
       "constructor": "Alpine F1 Team",
       "nationality": "FRE",
       "points": 41,
-      "gapToLeader": 261
+      "gapToLeader": 279
     }
   ],
   "constructors": [
@@ -195,43 +195,43 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 538,
+      "points": 556,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 378,
-      "barPercent": 70
+      "points": 405,
+      "barPercent": 73
     },
     {
       "position": "3",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 306,
+      "points": 316,
       "barPercent": 57
     },
     {
       "position": "4",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 263,
-      "barPercent": 49
+      "points": 298,
+      "barPercent": 54
     },
     {
       "position": "5",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 83,
-      "barPercent": 15
+      "points": 90,
+      "barPercent": 16
     },
     {
       "position": "6",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
       "points": 68,
-      "barPercent": 13
+      "barPercent": 12
     },
     {
       "position": "7",
@@ -258,7 +258,7 @@
       "position": "10",
       "name": "Aston Martin",
       "nationality": "BRI",
-      "points": 3,
+      "points": 7,
       "barPercent": 1
     },
     {
@@ -270,25 +270,25 @@
     }
   ],
   "podium": {
-    "headline": "Azerbaijan Grand Prix \u00b7 Baku City Circuit",
+    "headline": "Bahrain Grand Prix in Malaysia \u00b7 Sepang International Circuit",
     "rows": [
       {
         "position": "P1",
-        "name": "George Russell",
-        "team": "Mercedes",
-        "time": "1:38:02.143"
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "time": "1:47:14.808"
       },
       {
         "position": "P2",
-        "name": "Max Verstappen",
-        "team": "Red Bull",
-        "time": "+0.196"
+        "name": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "+2.307"
       },
       {
         "position": "P3",
-        "name": "Isack Hadjar",
-        "team": "Red Bull",
-        "time": "+10.704"
+        "name": "Lewis Hamilton",
+        "team": "Ferrari",
+        "time": "+4.919"
       }
     ]
   }
