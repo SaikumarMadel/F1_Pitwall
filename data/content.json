@@ -5,7 +5,7 @@
       "variant": "lead",
       "kicker": "Race Recap",
       "headline": "Max Verstappen takes Bahrain Grand Prix in Malaysia as title battle tightens",
-      "body": "Max Verstappen won at Sepang International Circuit. Current championship leader is Andrea Kimi Antonelli with 320 points, 84 clear of George Russell."
+      "body": "Max Verstappen won at Sepang International Circuit. Current championship leader is Andrea Kimi Antonelli with 325 points, 89 clear of George Russell."
     },
     {
       "number": "02",
@@ -32,7 +32,7 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+84",
+      "valuePrefix": "+89",
       "valueEm": "",
       "valueSuffix": " pts",
       "sub": "Andrea Kimi Antonelli over George Russell"
@@ -42,14 +42,14 @@
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "320 points after Bahrain Grand Prix in Malaysia"
+      "sub": "325 points after Bahrain Grand Prix in Malaysia"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "556 points"
+      "sub": "561 points"
     },
     {
       "label": "Next Race",
@@ -63,7 +63,7 @@
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "320 PTS"
+      "pts": "325 PTS"
     },
     {
       "sym": "P2",
@@ -73,7 +73,7 @@
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "556 PTS"
+      "pts": "561 PTS"
     },
     {
       "sym": "LAST WIN",
@@ -87,7 +87,7 @@
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-10-10T20:13:28Z",
+    "lastUpdatedUtc": "2026-10-10T23:43:12Z",
     "source": "jolpica"
   },
   "nextRace": {
@@ -105,7 +105,7 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 320,
+      "points": 325,
       "gapToLeader": 0
     },
     {
@@ -115,7 +115,7 @@
       "constructor": "Mercedes",
       "nationality": "BRI",
       "points": 236,
-      "gapToLeader": 84
+      "gapToLeader": 89
     },
     {
       "position": "3",
@@ -123,8 +123,8 @@
       "code": "HAM",
       "constructor": "Ferrari",
       "nationality": "BRI",
-      "points": 214,
-      "gapToLeader": 106
+      "points": 221,
+      "gapToLeader": 104
     },
     {
       "position": "4",
@@ -132,26 +132,26 @@
       "code": "LEC",
       "constructor": "Ferrari",
       "nationality": "MON",
-      "points": 191,
-      "gapToLeader": 129
+      "points": 197,
+      "gapToLeader": 128
     },
     {
       "position": "5",
-      "name": "Lando Norris",
-      "code": "NOR",
-      "constructor": "McLaren",
-      "nationality": "BRI",
-      "points": 188,
-      "gapToLeader": 132
-    },
-    {
-      "position": "6",
       "name": "Max Verstappen",
       "code": "VER",
       "constructor": "Red Bull",
       "nationality": "DUT",
-      "points": 188,
-      "gapToLeader": 132
+      "points": 196,
+      "gapToLeader": 129
+    },
+    {
+      "position": "6",
+      "name": "Lando Norris",
+      "code": "NOR",
+      "constructor": "McLaren",
+      "nationality": "BRI",
+      "points": 189,
+      "gapToLeader": 136
     },
     {
       "position": "7",
@@ -160,7 +160,7 @@
       "constructor": "McLaren",
       "nationality": "AUS",
       "points": 128,
-      "gapToLeader": 192
+      "gapToLeader": 197
     },
     {
       "position": "8",
@@ -169,7 +169,7 @@
       "constructor": "Red Bull",
       "nationality": "FRE",
       "points": 96,
-      "gapToLeader": 224
+      "gapToLeader": 229
     },
     {
       "position": "9",
@@ -177,8 +177,8 @@
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 65,
-      "gapToLeader": 255
+      "points": 69,
+      "gapToLeader": 256
     },
     {
       "position": "10",
@@ -187,7 +187,7 @@
       "constructor": "Alpine F1 Team",
       "nationality": "FRE",
       "points": 41,
-      "gapToLeader": 279
+      "gapToLeader": 284
     }
   ],
   "constructors": [
@@ -195,36 +195,36 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 556,
+      "points": 561,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 405,
-      "barPercent": 73
+      "points": 418,
+      "barPercent": 75
     },
     {
       "position": "3",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 316,
+      "points": 317,
       "barPercent": 57
     },
     {
       "position": "4",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 298,
-      "barPercent": 54
+      "points": 306,
+      "barPercent": 55
     },
     {
       "position": "5",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 90,
-      "barPercent": 16
+      "points": 94,
+      "barPercent": 17
     },
     {
       "position": "6",
@@ -237,14 +237,14 @@
       "position": "7",
       "name": "Haas F1 Team",
       "nationality": "AME",
-      "points": 27,
+      "points": 30,
       "barPercent": 5
     },
     {
       "position": "8",
       "name": "Audi",
       "nationality": "GER",
-      "points": 17,
+      "points": 19,
       "barPercent": 3
     },
     {
