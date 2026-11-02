@@ -4,8 +4,8 @@
       "number": "01",
       "variant": "lead",
       "kicker": "Race Recap",
-      "headline": "Andrea Kimi Antonelli takes United States Grand Prix as title battle tightens",
-      "body": "Andrea Kimi Antonelli won at Circuit of the Americas. Current championship leader is Andrea Kimi Antonelli with 365 points, 123 clear of George Russell."
+      "headline": "Max Verstappen takes Mexico City Grand Prix as title battle tightens",
+      "body": "Max Verstappen won at Aut\u00f3dromo Hermanos Rodr\u00edguez. Current championship leader is Andrea Kimi Antonelli with 380 points, 119 clear of Max Verstappen."
     },
     {
       "number": "02",
@@ -32,71 +32,71 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+123",
+      "valuePrefix": "+119",
       "valueEm": "",
       "valueSuffix": " pts",
-      "sub": "Andrea Kimi Antonelli over George Russell"
+      "sub": "Andrea Kimi Antonelli over Max Verstappen"
     },
     {
       "label": "Current Leader",
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "365 points after United States Grand Prix"
+      "sub": "380 points after Mexico City Grand Prix"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "607 points"
+      "sub": "630 points"
     },
     {
       "label": "Next Race",
-      "valuePrefix": "Mexico City Grand Prix",
+      "valuePrefix": "Brazilian Grand Prix",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "2026-11-01"
+      "sub": "2026-11-08"
     }
   ],
   "ticker": [
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "365 PTS"
+      "pts": "380 PTS"
     },
     {
       "sym": "P2",
-      "val": "GEORGE RUSSELL",
-      "pts": "242 PTS"
+      "val": "MAX VERSTAPPEN",
+      "pts": "261 PTS"
     },
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "607 PTS"
+      "pts": "630 PTS"
     },
     {
       "sym": "LAST WIN",
-      "val": "ANDREA KIMI ANTONELLI",
-      "pts": "UNITED STATES GRAND PRIX"
+      "val": "MAX VERSTAPPEN",
+      "pts": "MEXICO CITY GRAND PRIX"
     },
     {
       "sym": "NEXT",
-      "val": "MEXICO CITY GRAND PRIX",
-      "pts": "2026-11-01"
+      "val": "BRAZILIAN GRAND PRIX",
+      "pts": "2026-11-08"
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-11-01T23:46:55Z",
+    "lastUpdatedUtc": "2026-11-02T04:52:27Z",
     "source": "jolpica"
   },
   "nextRace": {
-    "name": "Mexico City Grand Prix",
-    "date": "2026-11-01",
-    "timeUtc": "20:00:00Z",
-    "circuit": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
-    "country": "Mexico",
-    "round": "19"
+    "name": "Brazilian Grand Prix",
+    "date": "2026-11-08",
+    "timeUtc": "17:00:00Z",
+    "circuit": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
+    "country": "Brazil",
+    "round": "20"
   },
   "drivers": [
     {
@@ -105,17 +105,17 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 365,
+      "points": 380,
       "gapToLeader": 0
     },
     {
       "position": "2",
-      "name": "George Russell",
-      "code": "RUS",
-      "constructor": "Mercedes",
-      "nationality": "BRI",
-      "points": 242,
-      "gapToLeader": 123
+      "name": "Max Verstappen",
+      "code": "VER",
+      "constructor": "Red Bull",
+      "nationality": "DUT",
+      "points": 261,
+      "gapToLeader": 119
     },
     {
       "position": "3",
@@ -123,17 +123,17 @@
       "code": "HAM",
       "constructor": "Ferrari",
       "nationality": "BRI",
-      "points": 241,
-      "gapToLeader": 124
+      "points": 259,
+      "gapToLeader": 121
     },
     {
       "position": "4",
-      "name": "Max Verstappen",
-      "code": "VER",
-      "constructor": "Red Bull",
-      "nationality": "DUT",
-      "points": 236,
-      "gapToLeader": 129
+      "name": "George Russell",
+      "code": "RUS",
+      "constructor": "Mercedes",
+      "nationality": "BRI",
+      "points": 250,
+      "gapToLeader": 130
     },
     {
       "position": "5",
@@ -141,8 +141,8 @@
       "code": "LEC",
       "constructor": "Ferrari",
       "nationality": "MON",
-      "points": 233,
-      "gapToLeader": 132
+      "points": 245,
+      "gapToLeader": 135
     },
     {
       "position": "6",
@@ -150,8 +150,8 @@
       "code": "NOR",
       "constructor": "McLaren",
       "nationality": "BRI",
-      "points": 211,
-      "gapToLeader": 154
+      "points": 221,
+      "gapToLeader": 159
     },
     {
       "position": "7",
@@ -159,8 +159,8 @@
       "code": "PIA",
       "constructor": "McLaren",
       "nationality": "AUS",
-      "points": 144,
-      "gapToLeader": 221
+      "points": 150,
+      "gapToLeader": 230
     },
     {
       "position": "8",
@@ -169,7 +169,7 @@
       "constructor": "Red Bull",
       "nationality": "FRE",
       "points": 105,
-      "gapToLeader": 260
+      "gapToLeader": 275
     },
     {
       "position": "9",
@@ -177,8 +177,8 @@
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 77,
-      "gapToLeader": 288
+      "points": 79,
+      "gapToLeader": 301
     },
     {
       "position": "10",
@@ -186,8 +186,8 @@
       "code": "GAS",
       "constructor": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 42,
-      "gapToLeader": 323
+      "points": 43,
+      "gapToLeader": 337
     }
   ],
   "constructors": [
@@ -195,43 +195,43 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 607,
+      "points": 630,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 474,
-      "barPercent": 78
+      "points": 504,
+      "barPercent": 80
     },
     {
       "position": "3",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 355,
-      "barPercent": 58
+      "points": 380,
+      "barPercent": 60
     },
     {
       "position": "4",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 355,
-      "barPercent": 58
+      "points": 371,
+      "barPercent": 59
     },
     {
       "position": "5",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 102,
+      "points": 104,
       "barPercent": 17
     },
     {
       "position": "6",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 69,
-      "barPercent": 11
+      "points": 74,
+      "barPercent": 12
     },
     {
       "position": "7",
@@ -270,25 +270,25 @@
     }
   ],
   "podium": {
-    "headline": "United States Grand Prix \u00b7 Circuit of the Americas",
+    "headline": "Mexico City Grand Prix \u00b7 Aut\u00f3dromo Hermanos Rodr\u00edguez",
     "rows": [
       {
         "position": "P1",
-        "name": "Andrea Kimi Antonelli",
-        "team": "Mercedes",
-        "time": "1:35:16.650"
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "time": "2:20:28.772"
       },
       {
         "position": "P2",
-        "name": "Charles Leclerc",
+        "name": "Lewis Hamilton",
         "team": "Ferrari",
-        "time": "+13.078"
+        "time": "+0.799"
       },
       {
         "position": "P3",
-        "name": "Max Verstappen",
-        "team": "Red Bull",
-        "time": "+17.485"
+        "name": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "+4.006"
       }
     ]
   }
