@@ -87,7 +87,7 @@
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-11-02T13:11:12Z",
+    "lastUpdatedUtc": "2026-11-02T22:25:24Z",
     "source": "jolpica"
   },
   "nextRace": {
@@ -159,8 +159,8 @@
       "code": "PIA",
       "constructor": "McLaren",
       "nationality": "AUS",
-      "points": 150,
-      "gapToLeader": 230
+      "points": 144,
+      "gapToLeader": 236
     },
     {
       "position": "8",
@@ -168,8 +168,8 @@
       "code": "HAD",
       "constructor": "Red Bull",
       "nationality": "FRE",
-      "points": 105,
-      "gapToLeader": 275
+      "points": 107,
+      "gapToLeader": 273
     },
     {
       "position": "9",
@@ -177,8 +177,8 @@
       "code": "LAW",
       "constructor": "RB F1 Team",
       "nationality": "NEW",
-      "points": 79,
-      "gapToLeader": 301
+      "points": 83,
+      "gapToLeader": 297
     },
     {
       "position": "10",
@@ -186,8 +186,8 @@
       "code": "GAS",
       "constructor": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 43,
-      "gapToLeader": 337
+      "points": 42,
+      "gapToLeader": 338
     }
   ],
   "constructors": [
@@ -209,42 +209,42 @@
       "position": "3",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 380,
-      "barPercent": 60
+      "points": 382,
+      "barPercent": 61
     },
     {
       "position": "4",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 371,
-      "barPercent": 59
+      "points": 365,
+      "barPercent": 58
     },
     {
       "position": "5",
       "name": "RB F1 Team",
       "nationality": "ITA",
-      "points": 104,
+      "points": 108,
       "barPercent": 17
     },
     {
       "position": "6",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 74,
-      "barPercent": 12
+      "points": 69,
+      "barPercent": 11
     },
     {
       "position": "7",
       "name": "Haas F1 Team",
       "nationality": "AME",
-      "points": 30,
+      "points": 31,
       "barPercent": 5
     },
     {
       "position": "8",
       "name": "Audi",
       "nationality": "GER",
-      "points": 23,
+      "points": 27,
       "barPercent": 4
     },
     {
