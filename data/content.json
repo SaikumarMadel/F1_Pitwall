@@ -4,8 +4,8 @@
       "number": "01",
       "variant": "lead",
       "kicker": "Race Recap",
-      "headline": "Lando Norris takes Brazilian Grand Prix as title battle tightens",
-      "body": "Lando Norris won at Aut\u00f3dromo Jos\u00e9 Carlos Pace. Current championship leader is Andrea Kimi Antonelli with 390 points, 111 clear of Max Verstappen."
+      "headline": "Max Verstappen takes Las Vegas Grand Prix as title battle tightens",
+      "body": "Max Verstappen won at Las Vegas Strip Street Circuit. Current championship leader is Andrea Kimi Antonelli with 402 points, 98 clear of Max Verstappen."
     },
     {
       "number": "02",
@@ -32,7 +32,7 @@
   "stats": [
     {
       "label": "Championship Lead",
-      "valuePrefix": "+111",
+      "valuePrefix": "+98",
       "valueEm": "",
       "valueSuffix": " pts",
       "sub": "Andrea Kimi Antonelli over Max Verstappen"
@@ -42,61 +42,61 @@
       "valuePrefix": "Andrea Kimi Antonelli",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "390 points after Brazilian Grand Prix"
+      "sub": "402 points after Las Vegas Grand Prix"
     },
     {
       "label": "Constructors Lead",
       "valuePrefix": "Mercedes",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "652 points"
+      "sub": "666 points"
     },
     {
       "label": "Next Race",
-      "valuePrefix": "Las Vegas Grand Prix",
+      "valuePrefix": "Qatar Grand Prix",
       "valueEm": "",
       "valueSuffix": "",
-      "sub": "2026-11-22"
+      "sub": "2026-11-29"
     }
   ],
   "ticker": [
     {
       "sym": "LEADER",
       "val": "ANDREA KIMI ANTONELLI",
-      "pts": "390 PTS"
+      "pts": "402 PTS"
     },
     {
       "sym": "P2",
       "val": "MAX VERSTAPPEN",
-      "pts": "279 PTS"
+      "pts": "304 PTS"
     },
     {
       "sym": "CON",
       "val": "MERCEDES",
-      "pts": "652 PTS"
+      "pts": "666 PTS"
     },
     {
       "sym": "LAST WIN",
-      "val": "LANDO NORRIS",
-      "pts": "BRAZILIAN GRAND PRIX"
+      "val": "MAX VERSTAPPEN",
+      "pts": "LAS VEGAS GRAND PRIX"
     },
     {
       "sym": "NEXT",
-      "val": "LAS VEGAS GRAND PRIX",
-      "pts": "2026-11-22"
+      "val": "QATAR GRAND PRIX",
+      "pts": "2026-11-29"
     }
   ],
   "meta": {
-    "lastUpdatedUtc": "2026-11-22T02:51:22Z",
+    "lastUpdatedUtc": "2026-11-22T10:48:53Z",
     "source": "jolpica"
   },
   "nextRace": {
-    "name": "Las Vegas Grand Prix",
-    "date": "2026-11-22",
-    "timeUtc": "04:00:00Z",
-    "circuit": "Las Vegas Strip Street Circuit",
-    "country": "USA",
-    "round": "21"
+    "name": "Qatar Grand Prix",
+    "date": "2026-11-29",
+    "timeUtc": "16:00:00Z",
+    "circuit": "Lusail International Circuit",
+    "country": "Qatar",
+    "round": "22"
   },
   "drivers": [
     {
@@ -105,7 +105,7 @@
       "code": "ANT",
       "constructor": "Mercedes",
       "nationality": "ITA",
-      "points": 390,
+      "points": 402,
       "gapToLeader": 0
     },
     {
@@ -114,44 +114,44 @@
       "code": "VER",
       "constructor": "Red Bull",
       "nationality": "DUT",
-      "points": 279,
-      "gapToLeader": 111
+      "points": 304,
+      "gapToLeader": 98
     },
     {
       "position": "3",
-      "name": "George Russell",
-      "code": "RUS",
-      "constructor": "Mercedes",
-      "nationality": "BRI",
-      "points": 262,
-      "gapToLeader": 128
-    },
-    {
-      "position": "4",
       "name": "Lewis Hamilton",
       "code": "HAM",
       "constructor": "Ferrari",
       "nationality": "BRI",
-      "points": 261,
-      "gapToLeader": 129
+      "points": 267,
+      "gapToLeader": 135
+    },
+    {
+      "position": "4",
+      "name": "George Russell",
+      "code": "RUS",
+      "constructor": "Mercedes",
+      "nationality": "BRI",
+      "points": 264,
+      "gapToLeader": 138
     },
     {
       "position": "5",
-      "name": "Charles Leclerc",
-      "code": "LEC",
-      "constructor": "Ferrari",
-      "nationality": "MON",
-      "points": 249,
-      "gapToLeader": 141
-    },
-    {
-      "position": "6",
       "name": "Lando Norris",
       "code": "NOR",
       "constructor": "McLaren",
       "nationality": "BRI",
-      "points": 246,
-      "gapToLeader": 144
+      "points": 264,
+      "gapToLeader": 138
+    },
+    {
+      "position": "6",
+      "name": "Charles Leclerc",
+      "code": "LEC",
+      "constructor": "Ferrari",
+      "nationality": "MON",
+      "points": 250,
+      "gapToLeader": 152
     },
     {
       "position": "7",
@@ -159,8 +159,8 @@
       "code": "PIA",
       "constructor": "McLaren",
       "nationality": "AUS",
-      "points": 152,
-      "gapToLeader": 238
+      "points": 167,
+      "gapToLeader": 235
     },
     {
       "position": "8",
@@ -169,7 +169,7 @@
       "constructor": "Red Bull",
       "nationality": "FRE",
       "points": 122,
-      "gapToLeader": 268
+      "gapToLeader": 280
     },
     {
       "position": "9",
@@ -178,7 +178,7 @@
       "constructor": "RB F1 Team",
       "nationality": "NEW",
       "points": 89,
-      "gapToLeader": 301
+      "gapToLeader": 313
     },
     {
       "position": "10",
@@ -186,8 +186,8 @@
       "code": "GAS",
       "constructor": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 42,
-      "gapToLeader": 348
+      "points": 52,
+      "gapToLeader": 350
     }
   ],
   "constructors": [
@@ -195,29 +195,29 @@
       "position": "1",
       "name": "Mercedes",
       "nationality": "GER",
-      "points": 652,
+      "points": 666,
       "barPercent": 100
     },
     {
       "position": "2",
       "name": "Ferrari",
       "nationality": "ITA",
-      "points": 510,
+      "points": 517,
       "barPercent": 78
     },
     {
       "position": "3",
       "name": "Red Bull",
       "nationality": "AUS",
-      "points": 415,
-      "barPercent": 64
+      "points": 440,
+      "barPercent": 66
     },
     {
       "position": "4",
       "name": "McLaren",
       "nationality": "BRI",
-      "points": 398,
-      "barPercent": 61
+      "points": 431,
+      "barPercent": 65
     },
     {
       "position": "5",
@@ -230,8 +230,8 @@
       "position": "6",
       "name": "Alpine F1 Team",
       "nationality": "FRE",
-      "points": 69,
-      "barPercent": 11
+      "points": 87,
+      "barPercent": 13
     },
     {
       "position": "7",
@@ -251,7 +251,7 @@
       "position": "9",
       "name": "Williams",
       "nationality": "BRI",
-      "points": 12,
+      "points": 16,
       "barPercent": 2
     },
     {
@@ -270,25 +270,25 @@
     }
   ],
   "podium": {
-    "headline": "Brazilian Grand Prix \u00b7 Aut\u00f3dromo Jos\u00e9 Carlos Pace",
+    "headline": "Las Vegas Grand Prix \u00b7 Las Vegas Strip Street Circuit",
     "rows": [
       {
         "position": "P1",
-        "name": "Lando Norris",
-        "team": "McLaren",
-        "time": "1:35:23.504"
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "time": "1:27:39.624"
       },
       {
         "position": "P2",
-        "name": "Max Verstappen",
-        "team": "Red Bull",
-        "time": "+14.602"
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "time": "+0.639"
       },
       {
         "position": "P3",
-        "name": "Isack Hadjar",
-        "team": "Red Bull",
-        "time": "+24.485"
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "time": "+1.529"
       }
     ]
   }
